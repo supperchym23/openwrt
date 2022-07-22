@@ -4,8 +4,8 @@ include $(TOPDIR)/rules.mk
 
 BOARD:=rockchip
 BOARDNAME:=Rockchip
-FEATURES:=ext4 audio usb usbgadget display gpio fpu rootfs-part boot-part squashfs
-SUBTARGETS:=armv8
+FEATURES:=audio usb usbgadget display gpio fpu rootfs-part boot-part squashfs
+SUBTARGETS:=armv8 armv8spi
 
 KERNEL_PATCHVER=5.4
 
